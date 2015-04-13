@@ -1,0 +1,331 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+a:hover {
+    color: #c6c96d;
+    text-decoration: none;
+}
+.navbar-default {
+  background-color: #333333;
+  border: none;
+}
+
+.navbar-brand>img {
+  display: block;
+  margin: 0 auto;
+}
+
+.container>.navbar-header {
+  /* margin-right: 0; */
+  /* margin-left: 0; */
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+  width: 20%;
+  margin-top: 1.5em;
+}
+
+.navbar>.container .navbar-brand {
+  /* margin-left: -15px; */
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+}
+
+.topnav {
+    font-size: 14px; 
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 150px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url('../img/bg.jpg') #333333;
+    xbackground-size: cover;
+}
+
+.intro-header h1 {
+    text-transform: uppercase;
+    color: #c6c96d;
+    font-family: 'brandon-grotesque';
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 12%;
+    padding-bottom: 20%;
+}
+
+.intro-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+    padding-bottom: .5em;
+}
+
+.intro-message > p {
+  margin: 0 0 10px;
+  width: 55%;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.footer {
+    background: #333333;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+  margin: 15px 0 0px;
+}
+
+/* Timer */
+
+#countdown {
+        font-size: 35px;
+        letter-spacing: 1px;
+        color: #525252;
+        top: -18px;
+        position: relative;
+    }
+
+#countdown .days {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#countdown .days h1 {
+    font-size: 62px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    line-height: 1px;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    color: #20bdc8;
+}
+
+#countdown .hours {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#countdown .hours h1 {
+    font-size: 62px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    line-height: 1px;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    color: #20bdc8;
+}
+
+#countdown .minutes {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#countdown .minutes h1 {
+    font-size: 62px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    line-height: 1px;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    color: #20bdc8;
+}
+
+#countdown .seconds {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#countdown .seconds h1 {
+    font-size: 62px;
+    text-align: center;
+    font-family: 'brandon-grotesque';
+    line-height: 1px;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    color: #20bdc8;
+}
+
+.onf {
+    color: #20bdc8;
+}
+
+
+@media(max-width:767px) {
+
+    p.copyright {
+  margin: -56px 0 0px;
+}
+
+
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+
+    .container>.navbar-header {
+  /* margin-right: 0; */
+  /* margin-left: 0; */
+  margin: 0 auto;
+  text-align: center;
+  float: none;
+  width: 50%;
+  margin-top: 1.5em;
+}
+
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
