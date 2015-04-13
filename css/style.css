@@ -125,11 +125,16 @@ p.copyright {
 
 .details {
     color: #fff;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .details p {
     padding-top: 116px;
+}
+
+.hashtag {
+    color: #c6c96d;
+    font-size: 16px;
 }
 
 .hashtag {
@@ -226,6 +231,10 @@ p.copyright {
 
 .onf {
     color: #20bdc8;
+}
+
+.onf-two {
+    color: #c6c96d;
 }
 
 
