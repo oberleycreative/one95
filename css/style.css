@@ -79,7 +79,7 @@ a:hover {
 .intro-message {
     position: relative;
     padding-top: 12%;
-    padding-bottom: 20%;
+    padding-bottom: 0%;
 }
 
 .intro-message > h1 {
@@ -122,6 +122,21 @@ footer {
 p.copyright {
   margin: 15px 0 0px;
 }
+
+.details {
+    color: #fff;
+    font-size: 13px;
+}
+
+.details p {
+    padding-top: 116px;
+}
+
+.hashtag {
+    color: #c6c96d;
+    font-size: 16px;
+}
+
 
 /* Timer */
 
